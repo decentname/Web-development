@@ -1,0 +1,199 @@
+body{
+    background-color: #F1F0D1;
+    font-family: verdana;
+    font-size: 18px;
+    overflow:auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+    padding-left: 5%;
+    color: #878E63;
+}
+
+p{
+    padding:2%;
+    color: #878E63;
+}
+
+img{
+    text-align:center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.banner img{
+    width:100;
+}
+
+#wrapper{
+    margin:0 auto;
+    max-width: 1020px;
+    width:98%;
+    background-color: #FEFBE8;
+    border:1px solid #878E63;
+    border-radius: 2px;
+}
+
+#callout{
+    text-align: right;
+    background-color: #878E63;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+#callout p{
+    text-align:right;
+    color:#F1F0D1;
+    font-size: 13px;
+    padding:0.1% 5px 0px 0px;
+}
+
+#header{
+    text-align: center;
+    min-height:125px;
+}
+
+
+#nav ul{
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+#nav ul li{
+    float: left;
+    border:1px solid #878E63;
+    width:15%;
+}
+
+#nav ul li a{
+    text-decoration:none;
+    color:#878E63;
+    background-color: #F1F0D1;
+    text-align: center;
+    padding:5px;
+    display: block;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.left-col{
+    float:left;
+    width: 55%;
+}
+
+.therapy{
+    float:right;
+    width: 40%;
+}
+
+.section{
+    width:30%;
+    margin:1%;
+    float:left;
+    text-align: center;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#footer{
+    background-color: #878E63;
+    overflow: hidden;
+    width: 100%;
+}
+
+#footer p{
+    color:#F1F0D1;
+}
+
+#footer h3{
+    color:#F1F0D1;
+}
+
+#footer p a{
+    text-decoration: none;
+    color:#F1F0D1;
+}
+
+#footer ul{
+    list-style-type:none; 
+}
+
+#footer ul li{
+    display: inline;
+}
+
+#footer ul li img{
+    height:50px;
+}
+
+/*....................... MEDIA...................*/
+
+@media screen and (max-width: 478px){
+
+body{
+
+    font-size:13px;
+}
+}
+
+@media screen and (max-width: 740px){
+
+    #nav{
+        width:100%;
+        margin-bottom: 10px;
+    }
+
+    #nav ul{
+        list-style: none;
+        margin:0 auto;
+        padding-left:0;
+
+
+    }
+
+    #nav ul li{
+        text-align: center;
+        margin-left:0 auto;
+        width: 100%; 
+    }
+
+    #nav ul li a{
+        padding: 8px 0px;
+        font-size: 16px;
+    }
+
+    .left-col{
+        width: 100%;
+    }
+
+    .section{
+        width:100%;
+        float: left;
+        margin:0;
+    }
+
+    .banner{
+        width:100%;
+    }
+
+    .therapy{
+        width:100%;
+    }
+
+    .fa {
+        padding: 20px;  
+        text-align: center;  
+        margin: 5px 2px;  
+        font-size: 30px;  
+        width: 50px;  
+    }  
+    .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+    }
+}
